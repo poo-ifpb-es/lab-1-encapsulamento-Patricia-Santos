@@ -27,6 +27,6 @@ public class CirculoTest {
         assertEquals(28.6952f, circulo.getCircunferencia(), 0.0001);
 
         circulo.setRaio(7f);
-        assertEquals(43.9822, circulo.getCircunferencia(), 0.0001);
+        assertEquals(43.9822f, circulo.getCircunferencia(), 0.0001);
     }
 }
