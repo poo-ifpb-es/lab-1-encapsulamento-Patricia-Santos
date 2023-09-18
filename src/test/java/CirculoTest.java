@@ -14,10 +14,10 @@ public class CirculoTest {
     void testArea() {
         Circulo circulo = new Circulo(4.567f);
 
-        assertEquals(131.0513, circulo.getArea(), 0.0001);
+        assertEquals(65.5256f, circulo.getArea(), 0.0001);
 
         circulo.setRaio(7f);
-        assertEquals(307.8758, circulo.getArea(), 0.0001);
+        assertEquals(153.9379f, circulo.getArea(), 0.0001);
     }
 
     @org.junit.jupiter.api.Test
@@ -27,6 +27,6 @@ public class CirculoTest {
         assertEquals(28.6952f, circulo.getCircunferencia(), 0.0001);
 
         circulo.setRaio(7f);
-        assertEquals(43.9822, circulo.getCircunferencia(), 0.0001);
+        assertEquals(43.9822f, circulo.getCircunferencia(), 0.0001);
     }
 }
